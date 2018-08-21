@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("./img/image.png");
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: slategray;
+}
+
+header>section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  color: yellow;
+  margin: 0 10px;
+}
+
+.menuBun {
+  display: flex;
+  justify-content: space-around
+}
+
+.hamburger {
+  width: 1000px;
+  height: 45px;
+  border: 1px rgba(250, 221, 57, 0.753) solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bun {
+  width: 100%;
+  height: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* .bun > div {
+  width: 100%;
+  height: 20%;
+  background: rgba(223, 23, 23, 0.7);
+} */
+
+nav {
+  display: none;
+  justify-content: space-evenly;
+  width: 450px;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+}
+
+.dropDown {
+  background: slategray;
+  color: rgb(215, 215, 221);
+  height: 0;
+  overflow: hidden;
+  transition: 600ms height ease-in, 3000ms ease-in-out;
+}
+
+.dropDownShow {
+  height: 150px;
+  background: rgb(92, 90, 90);
+}
+
+/* .cubeToBall {
+  width: 100px;
+  height: 100px;
+  background: palevioletred;
+  animation-name: roll;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+.playing {
+  animation-play-state: running;
+} */
+
+@keyframes roll {
+  0% {
+    transform: translateX(0), rotate(0);
+    border-radius: 0px;
+    background: palevioletred;
+  }
+  20% {
+    transform: translateX(500px) rotate(720deg);
+    border-radius: 50%;
+    background: #bada55;
+  }
+  100% {
+    transform: translateY(500px) translateX(500px)
+  }
+}
+
+@media (min-width: 576px) {
+  header>section {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  header>section {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  header>section {
+    width: 960px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  header>section {
+    width: 1140px;
+  }
+}
+
+
+
+
+
+.hamburger {
+  width: 80px;
+  height: 45px;
+  border: 1px rgba(255,255,255,0.5) solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.bun {
+  font-size: 90%
+}
+
+.burger {
+  width: 100%;
+  margin-left: 5px;
+}
+
+.bur {
+  height: 2px;
+  width: 80%;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+/* .bun > div {
+  width: 100%;
+  height: 20%;
+  background: rgba(255,255,255,0.7);
+} */
+
+nav {
+  display: none;
+  justify-content: space-evenly;
+  width: 450px;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+}
+
+.dropDown {
+  background: rgb(177, 180, 184);
+  color: rgb(244, 244, 250);
+  height: 0;
+  overflow: hidden;
+  transition: 600ms height ease-in, 5200ms background ease-in-out;
+}
+
+.dropDownShow {
+  height: 150px;
+  background: rgb(66, 66, 65) ;
+}
+
+@media (min-width: 576px) {
+  header>section {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  header>section {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  header>section {
+    width: 960px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  header>section {
+    width: 1140px;
+  }
+}
+

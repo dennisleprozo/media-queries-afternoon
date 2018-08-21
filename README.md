@@ -1,16 +1,30 @@
 <img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
 
-## Portfolio Clone
+# Project Summary
 
-![alt text](./src/img/landing.png)
+This project is an introduction into animations using the `react-motion` library. There are many ways to accomplish animations in a react application from vanilla javascript, css, and many other libraries.
 
-Today, we'll be cloning [this](https://blackrockdigital.github.io/startbootstrap-agency/).
+# Live Example
 
-**Notice:** This site has multiple media queries to change its layout at different view-widths. Be sure to nail down as many as you can.
+<a href="https://devmountain.github.io/react-animations-mini/">Click Me!</a>
 
-### Expectations: 
-- Start from the top (nav bar) and work down. The purpose of this project is to help you push your HTML/CSS skills, which include media queries. Don't try to throw some media queries in last minute. For this project, it would be better if you were only able to complete the nav bar (but it's fully responsive, i.e. media queries) than to clone the whole site (but it's not responsive).
-- Work hard!
+### Goals:
+* Understand how to create simple transition animations with react-motion.
+
+#### Resources:
+- https://github.com/chenglou/react-motion
+- https://www.pshrmn.com/tutorials/react/animation/react-motion/
+- Follow this scrimba cast to learn about animations with the Motion component from the react-motion library: https://scrimba.com/casts/c67ygAr
+
+### Instructions:
+1. Fork and clone. Run `npm i` to install dependencies. 
+
+2. Run `npm start` and check out the fully working to-do app in the browser. We will be adding animations to this app and take it to the next level.
+    * Review the code and make sure that you understand what is going on before adding any animations.
+
+3. Run `npm i --save react-motion` to install the animation library.
+
+4. Follow along: https://scrimba.com/casts/cdNzpuk
 
 ## Contributions
 
